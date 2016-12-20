@@ -1,6 +1,6 @@
 {
   "name": "terminal-graphs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Layouts and prints graphs (DAGs) to the terminal.",
   "main": "lib/index.js",
   "scripts": {
