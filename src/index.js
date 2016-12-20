@@ -20,7 +20,7 @@ function drawGraphToString (graph) {
 }
 
 function monospace (str, style) {
-  return {width: maxBy(str.split('\n'), (line) => line.length), height: str.split('\n').length}
+  return {width: maxBy(str.split('\n'), (line) => line.length).length, height: str.split('\n').length}
 }
 
 module.exports = {
