@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
-    "prepublish": "npm build",
+    "prepublish": "npm run build",
     "test": ""
   },
   "bin": {
