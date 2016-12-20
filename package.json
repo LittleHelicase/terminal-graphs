@@ -2,7 +2,7 @@
   "name": "terminal-graphs",
   "version": "1.0.1",
   "description": "Layouts and prints graphs (DAGs) to the terminal.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
     "test": ""
