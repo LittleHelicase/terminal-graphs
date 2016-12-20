@@ -1,0 +1,33 @@
+{
+  "name": "terminal-graphs",
+  "version": "1.0.0",
+  "description": "Layouts and prints graphs (DAGs) to the terminal.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": ""
+  },
+  "bin": {
+    "terminal-graphs": "lib/cli.js"
+  },
+  "keywords": [
+    "graph",
+    "terminal"
+  ],
+  "author": "Maximilian Klein",
+  "license": "MIT",
+  "dependencies": {
+    "graphify-node": "^1.0.0",
+    "graphlib2kgraph": "^1.0.0",
+    "bresenham": "0.0.4",
+    "cli-ext": "^1.1.0",
+    "graphlib": "^2.1.1",
+    "graphlib-dot": "^0.6.2",
+    "lodash": "^4.17.2",
+    "yargs": "^6.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-pipe-composition": "^0.1.1"
+  }
+}
