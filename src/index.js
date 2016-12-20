@@ -4,6 +4,7 @@ var graphlib = require('graphlib')
 var graphlib2kgraph = require('graphlib2kgraph')
 var graphify = require('graphify-node')
 var draw = require('./draw')
+var maxBy = require('lodash/maxBy')
 
 function drawNode (node) {
   return draw.combine([
@@ -19,7 +20,7 @@ function drawGraphToString (graph) {
 }
 
 function monospace (str, style) {
-  return {width: str.length, height: str.split('\n').length}
+  return {width: maxBy(str.split('\n'), (line) => line.length), height: str.split('\n').length}
 }
 
 module.exports = {
