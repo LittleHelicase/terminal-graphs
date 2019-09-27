@@ -1,6 +1,6 @@
 {
   "name": "terminal-graphs",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Layouts and prints graphs (DAGs) to the terminal.",
   "repository": {
     "type": "git",
