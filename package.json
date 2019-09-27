@@ -2,6 +2,11 @@
   "name": "terminal-graphs",
   "version": "1.0.6",
   "description": "Layouts and prints graphs (DAGs) to the terminal.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LittleHelicase/terminal-graphs.git"
+  },
+  "author": "LittleHelicase",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
@@ -15,7 +20,6 @@
     "graph",
     "terminal"
   ],
-  "author": "Maximilian Klein",
   "license": "MIT",
   "dependencies": {
     "graphify-node": "^1.0.0",
